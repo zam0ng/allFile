@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <!-- 표를 작성하는데 제일 부모 태그 -->
+    <!-- ul태그로 예를 들어
+        <ul> li 태그를 감싸고 있는 ul태그가 li 태그의 부모.
+             li 태그는 ul 태그의 자식이다.  -->
+
+    <ul>
+        <li></li>
+    </ul>
+    <!-- border-collapse: collapse 속성을 추가하면 떨어져있던 선이 겹쳐진다. -->
+    <table style="width: 800px; border-collapse: collapse; text-align: center;">
+        <!-- caption 태그로 테이블의 이름을 작성한다.-->
+        <caption>
+            테이블 이름
+        </caption>
+        <!-- colum의 줄임말, 열, 세로줄  -->
+        <col style="width : 50px;">
+        <col style="width : 100px;">
+        <col style="width : 200px;">
+        <col style="width : 200px;">
+        <col style="width : 200px;">
+        <tr>
+            <!-- 테이블 제일 위의 이름 / 테이블 헤더 -->
+            <!-- border 테두리를 바꿔줄 수 있는 속성("border : 선의굵기 / 선의 타입 / 테두리의 색;") -->
+            <th style="border: 1px solid black;">번호</th>
+            <th style="border: 1px solid black;">이름</th>
+            <th style="border: 1px solid black;">나이</th>
+            <th style="border: 1px solid black;">성별</th>
+            <th style="border: 1px solid black;">국적</th>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black">1</th>
+            <td style="border: 1px solid black">홍길동</td>
+            <td style="border: 1px solid black">29</td>
+            <td style="border: 1px solid black">남</td>
+            <!-- rowspan 숫자만큼 세로로 아래로 병합 -->
+            <!-- background-color 칸 색 -->
+            <!-- text-align: center 텍스트 가운데 정렬 -->
+            <td rowspan="2" style="border: 1px solid black; background-color: blue;
+             text-align: center;">한국</td>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black">2</th>
+            <td style="border: 1px solid black">아무개</td>
+            <td style="border: 1px solid black">24</td>
+            <td style="border: 1px solid black">남</td>
+            <td style="border: 1px solid black">한국</td>
+            
+        </tr>
+        <tr>
+            <th style="border: 1px solid black">3</th>
+            <td style="border: 1px solid black">에밀리</td>
+            <td style="border: 1px solid black">21</td>
+            <td style="border: 1px solid black">여</td>
+            <td style="border: 1px solid black">미국</td>
+        </tr>
+    </table>
+</body>
+</html>

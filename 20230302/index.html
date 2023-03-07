@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    이틀전까지 한 내용은
+    태그 : div, p, h1~h6, span, br, img, table, a
+    스타일을 줘보자 속성 style을 주자
+
+    <div style="width : 100%; height : 60px; background-color: #000000; padding : 0;
+    margin: 0; box-sizing: border-box;"></div>
+    style 속성 = Css(cascading style sheets) <br>
+    width : 너비, max-width, min-width <br>
+    height : 높이, max-height, min-height <br>
+    background-color : 바탕색, 색상을 태그에 입힐 수 있다. rgb(255,255,255)도 가능<br>
+    padding(태그 내부의 여백), margin (태그 외부의 여백) : top, right, bottom, left <br>
+    값을 한개만 썼을 때 사방면이 그값으로 적용된다.<br>
+    각각 지정하고 싶을 땐 4개 값 모두 작성해도 된다.<br>
+    값을 두개 작성했을 때 상하 좌우 값을 적용할 수 있다.<br>
+    box-sizing : 박스의 크기를 어떻게 설정할지 기준을 설정.<br>
+
+    <!-- div는 블록 요소를 가지고 있다. -->
+    <div style="width : 500px;">
+        <div style="display : block"> 블록 속성은 부모의 너비만큼 사용한다는 뜻
+            속성을 추가할 때
+            속성 명 = "속성 값"
+            display : 영역의 노출 크기를 어떻게 설정할지 기준을 설정한다.
+            부모 태그를 기준으로 모든 너비를 차지한다. 높이는 자식의 기준으로
+        </div>
+    </div>
+    <div style="width : 100%;">
+
+        <div style ="width : 200px; height : 200px; border: 1px solid; display: inline-block;"></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; display: inline-block;"></div>
+    </div>
+    <!-- inline은 자신의 크기 만큼만 영역을 차지한다. -->
+
+    <!-- display flex를 알아보자 / 블록속성이 있어도 옆으로 나열가능하고 
+        개발자모드에서 여러
+    방법으로 정렬 가능 -->
+    <div style ="display: flex;">
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+        <div style ="width : 200px; height : 200px; border: 1px solid; "></div>
+    </div>
+
+    <!-- color는 텍스트의 색을 바꿔준다.  -->
+    <div>
+        <h1 style="color : red">경일 게임 아카데미</h1>
+        <h2 style="color : blue">경일 게임 아카데미</h2>
+        <h3 style="color : aqua">경일 게임 아카데미</h3>
+    </div>
+
+
+
+
+
+
+    <p></p>
+    <h1></h1>
+
+
+</body>
+</html>

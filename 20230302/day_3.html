@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+    
+    <style>
+        /*태그들의 속성을 작성하고 태그에 한번에 적용 시켜줄 수 있다.*/    
+        /*id 선택자는 css 작성에서 #을 앞에 붙여준다.*/ 
+        /*class 보다 id 속성의 스타일을 우선으로 한다. */
+        #test{
+            color : red;
+        }
+
+        /*클래스 선택자는 css 작성에서 .을 앞에 붙여준다.*/ 
+        .block7{
+            color: blue;
+        }
+        /* 같은 속성이 작성되었을 때 맨 밑으로 작성된 속성이 적용된다.*/
+        .block7{
+            color: aqua;
+        }
+        /* *(별) 선택자는 모든 태그의 스타일을 적용시킨다.*/
+        *{
+            color: yellow;
+        }
+        /*태그 선택자 이름으로도 스타일을 줄 수도 있다.*/
+        div{
+            color: gray
+        }
+        /*여러 태그에 속성을 같이 적용시킬 때*/
+        div,h1{
+            color: brown
+        }
+
+
+        /* 자식 선택자 */
+
+        /* 부모태그 div 안에 있는 p 태그에 스타일을 주고 싶을 때 부모태그(한칸띄고)자식태그*/
+        div p{
+
+        }
+        .test .content{
+            /* test 클래스를 가지고 있는 태그의 자식 태그 중 content 클래스를 가지고 있는 태그
+            <div class ="test">
+                <div class="content">
+                    이 자식 태그가 스타일이 적용됨.
+                </div>
+            </div>
+            */
+            
+        }
+        /* test클래스와 content 클래스를 둘다 가지고 있는 태그를 스타일 주고 싶을 때*/
+        .test.content{
+
+            /*<div class = "test content"></div>*/
+
+        }
+
+        /* 자식 태그 중 해당 클래스를 가지고 있고 바로 아래 자식일 떄*/
+        .test > .content{
+            /* test 클래스가 가지고 있는 태그 자식중 content 클래스를 가지고 있는 자식중에
+               제일 첫번째 자식
+                
+            <div class="text">
+                <div class ="content"></div> <- 이클래스만 스타일이 적용된다.
+                <div class ="content"></div>
+                <div class ="content"></div>
+            </div>
+            */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- id 선택자 : id 선택자는 문서 안에서 한번만 적용된다.
+                     중복되면 안되고 고유의 명을 정해준다. 레이아웃 스타일을 지정해주거나
+                     이후 자바스크립트를 사용할 때 웹 요소를 구분할 때 사용한다. -->
+ 
+    <!-- class 선택자 : 같은 태그라도 다른 스타일을 적용시킬 때 클래스 선택자를 사용한다.
+                        태그의 클래스명이 중복되도 괜찮다. -->
+    <!-- <div class ="block7"> -->
+        <!-- 나는 class -->
+    <!-- </div> -->
+
+    <div> 나도 블록체인 7기</div>
+    <div> 나도 블록체인 7기</div>
+    <div> 나도 블록체인 7기</div>
+    <div> 나도 블록체인 7기</div>
+    <div> 나도 블록체인 7기</div>
+    <div> 나도 블록체인 7기</div>
+    <h1> 나도 블록체인 7기</h1>
+    <h2> 나도 블록체인 7기</h2>
+</body>
+</html>

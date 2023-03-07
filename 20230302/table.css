@@ -1,0 +1,73 @@
+.table{
+    width: 780px;
+    border-collapse: collapse;
+}
+
+.num{
+    width: 50px;
+    height: 50px;
+    border : 1px solid black;
+}
+
+.title{
+    width: 400px;
+    height: 50px;
+    border : 1px solid black;
+}
+
+.file{
+    width: 100px;
+    height: 50px;
+    border : 1px solid black;
+}
+
+.date{
+    width: 150px;
+    height: 50px;
+    border : 1px solid black;
+}
+
+.view{
+    width: 80px;
+    height: 50px;
+    border : 1px solid black;
+}
+
+.numput{
+    text-align: center;
+    border : 1px solid black;
+    height: 50px;
+}
+
+.titleput{
+    padding-left: 10px;
+    border : 1px solid black;
+    height: 50px;
+}
+
+.fileput{
+    text-align: center;
+    border : 1px solid black;
+    height: 50px;
+}
+
+.dateput{
+    text-align: center;
+    border : 1px solid black;
+    height: 50px;
+}
+
+.viewput {
+    text-align: center;
+    border : 1px solid black;
+    height: 50px;
+}
+
+.trcolor{
+    background-color: rgb(203, 202, 202);
+}
+
+.img{
+    width : 20px ;
+    height: 20px;
+}

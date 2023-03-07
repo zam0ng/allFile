@@ -1,0 +1,102 @@
+.icontitle{
+    position: absolute;
+    display: flex;
+
+    top: 340px;
+    
+}
+
+.text{
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+.text2{
+    position: absolute;
+    margin-left: 70px;
+
+    top:420px;
+}
+.text2:hover{
+    color:red;
+}
+
+/*icontitle 클래스에 마우스를 올렸을 때 text 클래스만 hover 속성 적용*/
+.icontitle:hover .text
+{
+    color:red;
+}
+
+.plus3{
+    display: flex;
+    margin-bottom: 200px;
+    
+}
+
+.content1{
+    position: relative;
+    margin-right: 10px;
+    width : 400px;
+}
+/*마지막 요소 선택자 의 오른쪽 여백을 없앤다라는 구문*/
+.content1:last-child{
+    margin-right:0
+}
+
+/*첫째 요소 선택자 last-child*/
+.content1:first-child{
+
+}
+
+img{
+    /*사각형 모서리를 없애준다.*/
+    border-radius: 40px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+li{
+/* float 왼쪽 오른쪽 붙여서 정렬 시킬 수 있다.*/ 
+float : left;
+
+/* ul li 태그를 사용하면서 리스의 점이나 숫자 리스트의 형식을 지정할 수 있다. */
+list-style : none;
+}
+
+/*content 클래스를 가진 태그의 자식 li 태그의 자식 item-img 클래스를 가진 태그만 스타일을 적용시킨다.*/
+
+.content li .item-img{
+
+}
+
+/* <div class="content">
+        <li>
+            <img class="item-img" src="" alt=""> <- 이 item-img 클래스만 적용된다는 말.
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+</div> */
+
+/*가상 선택자*/
+/*hover 속성 : 태그에 마우스가 올라갔을 때 상태가 바뀌는 속성*/
+.sub-tag:hover{
+
+    
+}
+
+/* 가상 선택자*/
+/* before, after 가상 요소를 추가해줄 수 있다.*/
+/* content 속성이 꼭 있어야 한다 */
+.text2 span::before{
+    content: "•"
+}
+
+.text2 span::after{
+    content: "•"
+}
+
+/*margin : auto; -> 좌우가 같게 가운데 정렬*/

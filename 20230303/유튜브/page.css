@@ -1,0 +1,285 @@
+h2{
+    width:970px;
+}
+
+img{
+    border-radius: 40px;
+}
+.subscribe:hover{
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+
+.subscribe{
+    width: 60px;
+    height: 36px;
+    color :white ;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 21px;
+
+}
+
+.like{
+    position: relative;
+    width: 90px;
+    height: 36px;
+    background-color: rgba(221, 218, 218, 0.74);
+    padding-bottom: 5px;
+    display: flex;
+    border-radius: 20px 0  0 20px;
+}
+.like:hover{
+    background-color: rgba(221, 218, 218, 0.932);
+}
+.like_tag{
+
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.918);
+    display :none;
+    top: 50px;
+    left : -30px;
+    color : white;
+    border-radius: 5px;
+
+}
+
+.like:hover .like_tag{
+    display: block;    
+}
+
+.hate:hover .hate_tag{
+    display: block;
+}
+
+.hate_tag{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.918);
+    display :none;
+    top: 50px;
+    left : -100px;
+    color : white;
+    border-radius: 5px;
+}
+
+
+
+.likeimg{
+    width: 35px;
+    height: 35px;
+    margin-top: 2px;
+    
+}
+
+p{
+    margin-top: 8px;
+    margin-left: 9px;
+    
+}
+span{
+    margin-top: 7px;
+    margin-left: 5px;
+    color : rgb(196, 194, 194)
+}
+
+.hate:hover{
+    background-color: rgba(221, 218, 218, 0.932);
+}
+
+.hate{
+
+    position: relative;
+    width: 52px;
+    height: 36px;
+    background-color: rgba(221, 218, 218, 0.74);
+    padding-bottom: 5px;
+    display: flex;
+    border-radius: 0 20px  20px 0;
+}
+
+.hateimg{
+    width: 30px;
+    height: 28px;
+    padding-top: 6px;
+    margin :auto ;
+}
+
+.like_hate{
+    display: flex;
+    margin-left: 240px;
+}
+
+.shape{
+    position: relative;
+    width: 84px;
+    height: 36px;
+    background-color: rgba(221, 218, 218, 0.74);
+    padding-bottom: 5px;
+    border-radius: 20px ;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.shapeimg{
+    position: absolute;
+
+    top : 6px;
+    left : 3px;
+
+    width: 30px;
+    height: 28px;
+}
+.shape p{
+    padding-top: 0px;
+    padding-left: 17px;
+    
+}
+
+.shape:hover{
+    background-color: rgba(221, 218, 218, 0.932);
+}
+
+.shape_tag{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    
+    display :none;
+    top: 50px;
+    left : 20px;
+    color : white;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.918);
+
+}
+
+.shape:hover .shape_tag{
+    display: block;
+}
+
+
+.channel{
+    position:relative;
+    margin-left: 5px;
+}
+
+.tag{
+    position : absolute;
+    bottom: 50px;
+    width: 250px;
+    height: 30px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.774);
+    color : white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.channel:hover .tag{
+    display: block;
+}
+
+.store:hover{
+    background-color: rgba(221, 218, 218, 0.932);
+}
+
+
+.store_tag{
+    position:absolute;
+    width :50px;
+    height: 30px;
+    display: none;
+    top: 50px;
+    left :20px;
+    color : white;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.918);
+
+
+}
+
+.store:hover .store_tag{
+    display: block;
+}
+
+.store{
+    position: relative;
+    width: 84px;
+    height: 36px;
+    background-color: rgba(221, 218, 218, 0.74);
+    padding-bottom: 5px;
+    border-radius: 20px ;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+.storeimg{
+    position: absolute;
+
+    top : 6px;
+    left : 3px;
+
+    width: 30px;
+    height: 28px;
+}
+
+.store p{
+    padding-top: 0px;
+    padding-left: 17px;
+    
+}
+
+.zzum:hover{
+    background-color: rgba(221, 218, 218, 0.932);
+}
+
+.zzum{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(221, 218, 218, 0.74);
+    padding-bottom: 5px;
+    border-radius: 20px ;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.zzumimg{
+    position: absolute;
+
+    top : 6px;
+    left : 3px;
+
+    width: 30px;
+    height: 28px;
+    
+}
+
+.f_f{
+    display: flex;
+}
+
+.sentence{
+    width: 970px;
+    height: 116px;
+
+    background-color: rgb(212, 212, 212);  
+    border-radius: 20px;
+
+    padding-top : 5px;
+    padding-left :5px;
+
+    margin-top: 10px;
+}
+.sentence:hover{
+    background-color: rgba(221, 218, 218, 0.932);
+}
+

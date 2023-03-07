@@ -1,0 +1,64 @@
+/*  common */
+
+.image{
+    width: 10.417vw;
+    height: 5.208vw;
+    border: 0.052vw solid rgb(167, 162, 162);
+    text-align: center;
+    padding-top: 4.167vw;
+    margin-left: 1.042vw;
+    font-size: 0.885vw;
+
+}
+
+.market{
+    height: 1.563vw;
+    display:flex;
+    margin-left: 1.042vw;
+}
+.THEMARKET{
+    font-weight: bold;
+    font-size: 0.885vw;
+}
+
+.date{
+    text-align: end;
+    margin-left: 16.667vw;
+    height: 1.563vw;
+    color: gray;
+    font-size: 0.885vw;
+}
+
+.box{
+    display:flex;
+}
+
+.sentence{
+    margin-left: 1.042vw;
+    margin-top: 0.521vw;
+    font-size: 1.042vw;
+}
+
+.deep{
+    margin-left: 1.042vw;
+    margin-top: 0.521vw;
+    margin-left: 22.396vw;
+    font-size: 0.833vw;
+}
+
+.m_s{
+    display: block;
+}
+
+.mnsnd{
+    display: block;
+}
+.psentence{
+    margin-top: 0.521vw;
+}
+
+.line{
+    margin-top: 1.042vw;
+    width : 41.667vw;
+    margin-left: 0;
+}
